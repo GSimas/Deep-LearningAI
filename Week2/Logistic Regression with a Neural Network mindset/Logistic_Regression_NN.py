@@ -691,14 +691,10 @@ index = 1
 num_d = d["Y_prediction_test"]
 num_y = test_set_y
 true_y_d = (num_d == num_y)
-for i in true_y_d:
-    if i == "False":
-        print(classes[d["Y_prediction_test"][0,index]].decode("utf-8"))
-    print(classes[np.squeeze(test_set_y[:, index])].decode("utf-8"))
+print(classes[d["Y_prediction_test"][0,index]].decode("utf-8"))
+print(classes[np.squeeze(test_set_y[:, index])].decode("utf-8"))
 
 plt.imshow(test_set_x[:,index].reshape((num_px, num_px, 3)))
-print ("y = " + str(test_set_y[0,index]) + ", you predicted that it is a \"" + classes[d["Y_prediction_test"][0,index]].decode("utf-8") +  "\" picture.")
-
 
 # Let's also plot the cost function and the gradients.
 
