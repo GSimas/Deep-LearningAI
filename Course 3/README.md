@@ -1,4 +1,4 @@
-﻿# Course 2 - Structuring Machine Learning Projects
+# Course 3 - Structuring Machine Learning Projects
 
 **Info:** Informações sobre o curso: You will learn how to build a successful machine learning project. If you aspire to be a technical leader in AI, and know how to set direction for your team's work, this course will show you how.
 
